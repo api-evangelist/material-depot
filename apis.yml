@@ -1,8 +1,26 @@
 aid: material-depot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/material-depot.png
 name: Material Depot
-description: 'Material Depot is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplaces. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Material Depot is India''s design-first interior-materials marketplace and experience-centre
+  network, headquartered in Bengaluru and founded in 2022. It helps homeowners, architects, interior
+  designers, builders and contractors discover, compare, visualize and purchase interior-design materials
+  — tiles, laminates, wall panels, plywood, wallpapers, flooring, sanitaryware and countertops — spanning
+  300,000+ products across 1,000+ brands and 100+ categories. The company blends online discovery with
+  physical experience centres in Bengaluru and Hyderabad, offering sample ordering, store-visit booking,
+  free design consultations, video-call shopping, mix-and-match visualization, bulk/trade quotations and
+  pan-India delivery. Backed by Accel, Material Depot operates a consumer/B2B web marketplace and does not
+  currently publish a public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/material-depot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplaces
+- Interior Design
+- Construction Materials
+- Building Materials
+- Home Improvement
+- E-commerce
+- India
 apis: []
+common:
+- type: Website
+  url: https://materialdepot.com/
+- type: About
+  url: https://materialdepot.com/about
+- type: Support
+  url: https://materialdepot.com/contact
+- type: LLMsTxt
+  url: llms/material-depot-llms.txt
+- type: DomainSecurity
+  url: security/material-depot-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
